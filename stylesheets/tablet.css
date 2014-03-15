@@ -1,0 +1,24 @@
+@media screen and (min-width: 606px) and (max-width: 1023px) {
+  /* line 2, ../sass/tablet.scss */
+  .tablet_hide {
+    display: none;
+  }
+
+  /* line 9, ../sass/tablet.scss */
+  body div#middle {
+    width: 606px;
+  }
+  /* line 14, ../sass/tablet.scss */
+  body div#middle .top h2 {
+    font-size: 0.8em;
+    margin-left: 40%;
+  }
+  /* line 18, ../sass/tablet.scss */
+  body div#middle .top .phone {
+    margin-top: -40px;
+  }
+  /* line 30, ../sass/tablet.scss */
+  body div#middle #menu ul li {
+    font-size: 0.7em;
+  }
+}

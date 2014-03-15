@@ -1,0 +1,74 @@
+@media screen and (max-width: 605px) {
+  .phone_hide {
+    display: none;
+  }
+  .display_phone {
+    height: 100px;
+    img {
+    }
+    .number {
+      color: #012e58;
+    }
+  }
+
+  body {
+    div#body_top {
+    }
+    div#middle {
+      width: 100%;
+      margin: 0 auto;
+
+      .top {
+        img {
+          height: 45px;
+        }
+        h2 {
+        }
+        .phone {
+          display: none;
+        }
+      }
+      #menu {
+        height: auto;
+
+        ul {
+
+          li {
+            float: none;
+            //            font-size: 0.5em;
+            width: auto;
+            margin-top: 10px;
+            a {
+            }
+          }
+        }
+      }
+
+      #content {
+
+        img {
+        }
+        .form {
+          h2 {
+          }
+          img {
+
+          }
+          form {
+            text-align: center;
+            dl {
+              dt {
+
+              }
+              dd {
+
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+}

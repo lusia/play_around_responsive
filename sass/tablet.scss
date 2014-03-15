@@ -1,0 +1,39 @@
+@media screen and (min-width: 606px) and (max-width: 1023px) {
+  .tablet_hide {
+    display: none;
+  }
+
+  $width: 606px;
+
+  body {
+    div#middle {
+      width: $width;
+      .top {
+        img {
+        }
+        h2 {
+          font-size: 0.8em;
+          margin-left: 40%;
+        }
+        .phone {
+          margin-top: -40px;
+          img {
+          }
+          p {
+          }
+          .number {
+          }
+        }
+      }
+      #menu {
+        ul {
+          li {
+            font-size: 0.7em;
+            a {
+            }
+          }
+        }
+      }
+    }
+  }
+}
