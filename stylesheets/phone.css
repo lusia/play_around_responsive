@@ -6,38 +6,61 @@
 
   /* line 5, ../sass/phone.scss */
   .display_phone {
+    display: block;
     height: 100px;
   }
-  /* line 9, ../sass/phone.scss */
+  /* line 8, ../sass/phone.scss */
   .display_phone .number {
     color: #012e58;
   }
 
-  /* line 17, ../sass/phone.scss */
+  /* line 15, ../sass/phone.scss */
   body div#middle {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 22, ../sass/phone.scss */
+  /* line 18, ../sass/phone.scss */
+  body div#middle .top {
+    height: 158px;
+    background-repeat: no-repeat;
+  }
+  /* line 21, ../sass/phone.scss */
   body div#middle .top img {
     height: 45px;
   }
-  /* line 27, ../sass/phone.scss */
-  body div#middle .top .phone {
-    display: none;
+  /* line 24, ../sass/phone.scss */
+  body div#middle .top .call_us {
+    background-color: white;
+    padding: 2% 0 0 25%;
   }
-  /* line 31, ../sass/phone.scss */
+  /* line 27, ../sass/phone.scss */
+  body div#middle .top .call_us .number {
+    margin-top: 2%;
+  }
+  /* line 32, ../sass/phone.scss */
   body div#middle #menu {
     height: auto;
+  }
+  /* line 34, ../sass/phone.scss */
+  body div#middle #menu ul {
+    padding-bottom: 10%;
   }
   /* line 36, ../sass/phone.scss */
   body div#middle #menu ul li {
     float: none;
     width: auto;
-    margin-top: 10px;
+    margin-top: 7%;
   }
-  /* line 57, ../sass/phone.scss */
+  /* line 41, ../sass/phone.scss */
+  body div#middle #menu ul .activ_link {
+    width: auto;
+  }
+  /* line 50, ../sass/phone.scss */
   body div#middle #content .form form {
     text-align: center;
+  }
+  /* line 53, ../sass/phone.scss */
+  body div#middle #content .form form dl dt {
+    margin-left: 13%;
   }
 }

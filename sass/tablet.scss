@@ -9,29 +9,25 @@
     div#middle {
       width: $width;
       .top {
-        img {
-        }
         h2 {
           font-size: 0.8em;
           margin-left: 40%;
         }
         .phone {
           margin-top: -40px;
-          img {
-          }
-          p {
-          }
-          .number {
-          }
+          .number {}
         }
       }
       #menu {
         ul {
           li {
             font-size: 0.7em;
-            a {
-            }
           }
+        }
+      }
+      #content {
+        .semi {
+          width: $width;
         }
       }
     }
