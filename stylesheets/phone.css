@@ -5,62 +5,75 @@
   }
 
   /* line 5, ../sass/phone.scss */
-  .display_phone {
+  .call_us {
     display: block;
     height: 100px;
+    background-color: white;
+    padding: 2% 0 0 25%;
   }
-  /* line 8, ../sass/phone.scss */
-  .display_phone .number {
+  /* line 10, ../sass/phone.scss */
+  .call_us .number {
+    margin-top: 2%;
     color: #012e58;
   }
 
   /* line 15, ../sass/phone.scss */
+  .take_photo {
+    display: block;
+  }
+  /* line 17, ../sass/phone.scss */
+  .take_photo img {
+    float: left;
+  }
+
+  /* line 26, ../sass/phone.scss */
   body div#middle {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 18, ../sass/phone.scss */
+  /* line 29, ../sass/phone.scss */
   body div#middle .top {
     height: 158px;
     background-repeat: no-repeat;
   }
-  /* line 21, ../sass/phone.scss */
+  /* line 32, ../sass/phone.scss */
   body div#middle .top img {
     height: 45px;
   }
-  /* line 24, ../sass/phone.scss */
-  body div#middle .top .call_us {
-    background-color: white;
-    padding: 2% 0 0 25%;
-  }
-  /* line 27, ../sass/phone.scss */
-  body div#middle .top .call_us .number {
-    margin-top: 2%;
-  }
-  /* line 32, ../sass/phone.scss */
+  /* line 37, ../sass/phone.scss */
   body div#middle #menu {
     height: auto;
   }
-  /* line 34, ../sass/phone.scss */
+  /* line 39, ../sass/phone.scss */
   body div#middle #menu ul {
     padding-bottom: 10%;
   }
-  /* line 36, ../sass/phone.scss */
+  /* line 41, ../sass/phone.scss */
   body div#middle #menu ul li {
     float: none;
     width: auto;
     margin-top: 7%;
   }
-  /* line 41, ../sass/phone.scss */
+  /* line 46, ../sass/phone.scss */
   body div#middle #menu ul .activ_link {
     width: auto;
   }
-  /* line 50, ../sass/phone.scss */
+  /* line 55, ../sass/phone.scss */
   body div#middle #content .form form {
     text-align: center;
   }
-  /* line 53, ../sass/phone.scss */
+  /* line 58, ../sass/phone.scss */
   body div#middle #content .form form dl dt {
     margin-left: 13%;
+  }
+  /* line 67, ../sass/phone.scss */
+  body div#middle #bottom_content .properties h3 {
+    font-size: 0.8em;
+    margin-right: 2%;
+  }
+  /* line 71, ../sass/phone.scss */
+  body div#middle #bottom_content .properties div {
+    margin-right: 16%;
+    width: 8%;
   }
 }

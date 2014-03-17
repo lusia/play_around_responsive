@@ -196,25 +196,27 @@ body div#middle #content .form form dl dd input {
 body div#middle #content .form form input {
   background-color: green;
   margin-top: 5%;
+  border: 0;
 }
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 body div#middle #content .semi {
   float: none;
   position: absolute;
   bottom: 0;
 }
-/* line 120, ../sass/style.scss */
+/* line 121, ../sass/style.scss */
 body div#middle #bottom_content {
   background-color: white;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 body div#middle #bottom_content .properties {
   width: 90%;
   margin-left: 5%;
+  height: 50px;
 }
-/* line 125, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 body div#middle #bottom_content .properties h3 {
-  width: 18%;
+  width: 26%;
   text-align: center;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -226,4 +228,30 @@ body div#middle #bottom_content .properties h3 {
   background-image: -moz-linear-gradient(#798d79, #314e31);
   background-image: -o-linear-gradient(#798d79, #314e31);
   background-image: linear-gradient(#798d79, #314e31);
+  float: left;
+  height: 100%;
+  line-height: 153%;
+}
+/* line 136, ../sass/style.scss */
+body div#middle #bottom_content .properties div {
+  float: left;
+  width: 24%;
+}
+/* line 139, ../sass/style.scss */
+body div#middle #bottom_content .properties div a {
+  text-decoration: none;
+}
+/* line 141, ../sass/style.scss */
+body div#middle #bottom_content .properties div a img {
+  float: left;
+}
+/* line 144, ../sass/style.scss */
+body div#middle #bottom_content .properties div a p {
+  color: #58697d;
+  display: inline;
+  font-size: 0.8em;
+}
+/* line 148, ../sass/style.scss */
+body div#middle #bottom_content .properties div a p span {
+  color: #8ea78e;
 }

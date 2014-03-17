@@ -2,13 +2,24 @@
   .phone_hide {
     display: none;
   }
-  .display_phone {
+  .call_us {
     display: block;
     height: 100px;
+    background-color: white;
+    padding: 2% 0 0 25%;
     .number {
+      margin-top: 2%;
       color: #012e58;
     }
   }
+  .take_photo {
+    display: block;
+    img {
+      float: left;
+    }
+
+  }
+
   body {
     div#body_top {
     }
@@ -21,13 +32,7 @@
         img {
           height: 45px;
         }
-        .call_us {
-          background-color: white;
-          padding: 2% 0 0 25%;
-          .number {
-            margin-top: 2%;
-          }
-        }
+
       }
       #menu {
         height: auto;
@@ -57,7 +62,18 @@
           }
         }
       }
-
+      #bottom_content {
+        .properties {
+          h3 {
+            font-size: 0.8em;
+            margin-right: 2%;
+          }
+          div {
+            margin-right: 16%;
+            width: 8%;
+          }
+        }
+      }
     }
   }
 

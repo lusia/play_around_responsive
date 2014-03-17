@@ -17,12 +17,16 @@
   body div#middle .top .phone {
     margin-top: -40px;
   }
-  /* line 23, ../sass/tablet.scss */
+  /* line 24, ../sass/tablet.scss */
   body div#middle #menu ul li {
     font-size: 0.7em;
   }
-  /* line 29, ../sass/tablet.scss */
+  /* line 30, ../sass/tablet.scss */
   body div#middle #content .semi {
     width: 606px;
+  }
+  /* line 36, ../sass/tablet.scss */
+  body div#middle #bottom_content .properties h3 {
+    line-height: 165%;
   }
 }

@@ -15,7 +15,8 @@
         }
         .phone {
           margin-top: -40px;
-          .number {}
+          .number {
+          }
         }
       }
       #menu {
@@ -28,6 +29,15 @@
       #content {
         .semi {
           width: $width;
+        }
+      }
+      #bottom_content {
+        .properties {
+          h3 {
+//            font-size: 0.8em;
+            line-height: 165%;
+          }
+
         }
       }
     }

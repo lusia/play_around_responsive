@@ -107,6 +107,7 @@ body {
           input {
             background-color: green;
             margin-top: 5%;
+            border: 0;
           }
         }
       }
@@ -122,12 +123,35 @@ body {
       .properties {
         width: 100% - 10;
         margin-left: 5%;
+        height: 50px;
         h3 {
-          width: 18%;
+          width: 26%;
           text-align: center;
           @include border-radius(5px);
-          @include background-image(linear-gradient(#798d79, #314e31))
+          @include background-image(linear-gradient(#798d79, #314e31));
+          float: left;
+          height: 100%;
+          line-height: 153%;
         }
+        div {
+          float: left;
+          width: 24%;
+          a {
+            text-decoration: none;
+            img {
+              float: left;
+            }
+            p {
+              color: #58697d;
+              display: inline;
+              font-size: 0.8em;
+              span {
+                color: #8ea78e;
+              }
+            }
+          }
+        }
+
       }
     }
   }
