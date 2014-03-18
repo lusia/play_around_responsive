@@ -18,7 +18,7 @@
         <h2 class="phone_hide">SOME SLOGAN GOES HERE</h2>
 
         <div class="phone phone_hide">
-            <img src="images/icons/call_phone.png">
+            <img class="fl" src="images/icons/call_phone.png">
 
             <p class="tablet_hide">Call us at<br></p>
 
@@ -33,27 +33,27 @@
     </div>
     <div id="menu">
         <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About Company</a></li>
-            <li class="activ_link"><a href="#">Properties</a></li>
-            <li><a href="#">Amenities</a></li>
-            <li><a href="#">Photo Gallery</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact Us</a></li>
+            <li class="fl"><a href="#">Home</a></li>
+            <li class="fl"><a href="#">About Company</a></li>
+            <li class="activ_link fl"><a href="#">Properties</a></li>
+            <li class="fl"><a href="#">Amenities</a></li>
+            <li class="fl"><a href="#">Photo Gallery</a></li>
+            <li class="fl"><a href="#">Blog</a></li>
+            <li class="fl"><a href="#">Contact Us</a></li>
         </ul>
     </div>
 
     <div id="content">
-        <img class="phone_hide" src="images/photos/1photo.jpg">
-        <img class="tablet_hide phone_hide" src="images/photos/2photo.jpg">
+        <img class="phone_hide fl" src="images/photos/1photo.jpg">
+        <img class="tablet_hide phone_hide fl" src="images/photos/2photo.jpg">
 
         <div class="form">
             <h2>FIND A PROPERTY</h2>
-            <img class="phone_hide" src="images/icons/loupe.png">
+            <img class="phone_hide fr" src="images/icons/loupe.png">
 
             <form action="" method="GET">
                 <dl>
-                    <dt><label class="first">BEDROOMS</label></dt>
+                    <dt class="fl"><label class="first">BEDROOMS</label></dt>
                     <dd><input type="radio" id="any">
                         <label for="any">Any</label>
                         <input type="radio" id="one">
@@ -63,7 +63,7 @@
                         <input type="radio" id="three">
                         <label for="three">3</label>
                     </dd>
-                    <dt><label class="first">TYPE</label></dt>
+                    <dt class="fl"><label class="first">TYPE</label></dt>
                     <dd><input type="radio" id="any_type">
                         <label for="any_type">Any</label>
                         <input type="radio" id="apt">
@@ -71,21 +71,21 @@
                         <input type="radio" id="townhome">
                         <label for="townhome">Townhome</label>
                     </dd>
-                    <dt><label class="first">COMMUNITY</label></dt>
+                    <dt class="fl"><label class="first">COMMUNITY</label></dt>
                     <dd><select class="select" name="community">
                         <option value="no_reference">No reference</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
                     </select>
                     </dd>
-                    <dt><label class="first">RENT</label></dt>
+                    <dt class="fl"><label class="first">RENT</label></dt>
                     <dd><select class="select rent" name="rent">
                         <option value="no_reference">No reference</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
                     </select>
                     </dd>
-                    <dt><label class="first">SQ.FOOTAGE</label></dt>
+                    <dt class="fl"><label class="first">SQ.FOOTAGE</label></dt>
                     <dd><select class="select" name="footage">
                         <option value="no_reference">No reference</option>
                         <option value="one">One</option>
@@ -93,21 +93,21 @@
                     </select>
                     </dd>
 
-                    <dt><label class="first">AVAILABILITY</label></dt>
+                    <dt class="fl"><label class="first">AVAILABILITY</label></dt>
                     <dd><select class="select" name="availability">
                         <option value="no_reference">No reference</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
                     </select>
                     </dd>
-                    <dt><label class="first">PETS POLICY</label></dt>
+                    <dt class="fl"><label class="first">PETS POLICY</label></dt>
                     <dd><select class="select" name="pets">
                         <option value="no_reference">No reference</option>
                         <option value="one">One</option>
                         <option value="two">Two</option>
                     </select>
                     </dd>
-                    <dt><label class="first">GARAGE</label></dt>
+                    <dt class="fl"><label class="first">GARAGE</label></dt>
                     <dd><input type="radio" id="any_garage">
                         <label for="any_garage">Any</label>
                         <input type="radio" id="attached">
@@ -123,33 +123,31 @@
     </div>
     <div id="bottom_content">
         <div class="properties">
-            <h3>FEATURED PROPERTIES</h3>
+            <h3 class="fl">FEATURED PROPERTIES</h3>
 
             <div>
                 <a class="phone_hide" href="#" target="_blank">
-                    <img src="images/photos/camera.jpg" alt="take a photo tour">
+                    <img class="fl" src="images/photos/camera.jpg" alt="take a photo tour">
 
                     <p>TAKE A <span>PHOTO TOUR</span></p>
                 </a>
                 <a class="display_phone take_photo" href="#" target="_blank">
                     <img src="images/photos/camera.jpg" alt="take a photo tour">
                 </a>
-
             </div>
             <div>
                 <a class="phone_hide" href="#" target="_blank">
-                    <img src="images/photos/dolar.jpg" alt="special offers">
+                    <img class="fl" src="images/photos/dolar.jpg" alt="special offers">
 
                     <p>VIEW <span>SPECIAL OFFERS</span></p>
                 </a>
                 <a class="display_phone take_photo" href="#" target="_blank">
                     <img src="images/photos/dolar.jpg" alt="special offers">
                 </a>
-
             </div>
             <div>
                 <a class="phone_hide" href="#" target="_blank">
-                    <img src="images/photos/mobile.jpg" alt="read the blog">
+                    <img class="fl" src="images/photos/mobile.jpg" alt="read the blog">
 
                     <p>READ THE <span>COMCAMP BLOG</span></p>
                 </a>
@@ -158,9 +156,37 @@
                 </a>
 
             </div>
+            <div id="apartments">
+                <div class="apartment">
+                    <div class="box">
+                        <img src="images/photos/3photo.jpg" alt="apartment">
+                        <img class="price" src="images/triangle.png" alt="triangle">
 
-            <div id="apartaments">
+                        <p>$950</p>
 
+                    </div>
+
+                </div>
+                <div class="apartment">
+                    <div class="box">
+                        <img src="images/photos/3photo.jpg" alt="apartment">
+                        <img class="price" src="images/triangle.png" alt="triangle">
+
+                        <p>$950</p>
+
+                    </div>
+
+                </div>
+                <div class="apartment">
+                    <div class="box">
+                        <img src="images/photos/3photo.jpg" alt="apartment">
+                        <img class="price" src="images/triangle.png" alt="triangle">
+
+                        <p>$950</p>
+
+                    </div>
+
+                </div>
             </div>
 
         </div>

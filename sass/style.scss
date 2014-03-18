@@ -1,11 +1,20 @@
 @import "compass/reset";
 @import "compass";
+@import "compass/css3/transform";
 
 $width: 951px;
 $font-size: 12px;
 
 .display_phone {
   display: none;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
 }
 
 body {
@@ -34,7 +43,6 @@ body {
       .phone {
         margin: -43px 0 0 82%;
         img {
-          float: left;
           margin-right: 10px;
         }
         p {
@@ -52,7 +60,6 @@ body {
       ul {
         padding-top: 1%;
         li {
-          float: left;
           width: (floor(100%/7));
           text-align: center;
           a {
@@ -70,9 +77,6 @@ body {
     }
     #content {
       position: relative;
-      img {
-        float: left;
-      }
       .form {
         background-color: #a7c2dc;
         height: 388px;
@@ -82,16 +86,12 @@ body {
           text-align: center;
           font-size: 1.2em;
         }
-        img {
-          float: right;
-        }
         form {
           margin-top: 25px;
           font-size: 0.7em;
           text-align: center;
           dl {
             dt {
-              float: left;
               margin-left: 1%;
               display: inline-block;
               width: 7%;
@@ -120,6 +120,7 @@ body {
     }
     #bottom_content {
       background-color: white;
+      height: 300px;
       .properties {
         width: 100% - 10;
         margin-left: 5%;
@@ -129,7 +130,6 @@ body {
           text-align: center;
           @include border-radius(5px);
           @include background-image(linear-gradient(#798d79, #314e31));
-          float: left;
           height: 100%;
           line-height: 153%;
         }
@@ -139,7 +139,7 @@ body {
           a {
             text-decoration: none;
             img {
-              float: left;
+
             }
             p {
               color: #58697d;
@@ -151,8 +151,49 @@ body {
             }
           }
         }
+        #apartments {
+          background-color: #c7dec7;
+          width: 100%;
+          height: 230px;
 
+          .apartment {
+            background-image: url("../images/background/square.png");
+            height: 80%;
+            width: (floor(100% / 3));
+            background-repeat: no-repeat;
+            float: left;
+            position: relative;
+
+            .box {
+              position: relative;
+              width: 85%;
+              height: 76%;
+              margin: 7% 0 0 10%;
+
+              img {
+                width: 100%;
+                height: 100%;
+              }
+              .price {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                width: 35%;
+                height: 35%;
+              }
+              p{
+                position: absolute;
+                color: white;
+                right: 3%;
+                bottom: 8%;
+                @include rotate(-35deg);
+              }
+            }
+          }
+
+        }
       }
     }
   }
 }
+

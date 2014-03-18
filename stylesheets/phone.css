@@ -76,4 +76,14 @@
     margin-right: 16%;
     width: 8%;
   }
+  /* line 78, ../sass/phone.scss */
+  body div#middle #bottom_content #apartments .apartment {
+    float: none;
+  }
+  /* line 81, ../sass/phone.scss */
+  body div#middle #bottom_content #apartments .apartment .box
+  p {
+    font-size: 0.8em;
+    color: red;
+  }
 }

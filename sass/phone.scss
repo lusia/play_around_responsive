@@ -73,8 +73,22 @@
             width: 8%;
           }
         }
+
+        #apartments {
+          .apartment {
+            float: none;
+            .box
+            p {
+              font-size: 0.8em;
+//              @include rotate(-50deg);
+              color: red;
+            }
+          }
+        }
+
       }
+
     }
   }
-
 }
+
