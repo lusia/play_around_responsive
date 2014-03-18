@@ -46,44 +46,84 @@
   }
   /* line 39, ../sass/phone.scss */
   body div#middle #menu ul {
-    padding-bottom: 10%;
+    padding-bottom: 2%;
   }
   /* line 41, ../sass/phone.scss */
   body div#middle #menu ul li {
     float: none;
     width: auto;
-    margin-top: 7%;
+    margin-bottom: 4%;
   }
   /* line 46, ../sass/phone.scss */
   body div#middle #menu ul .activ_link {
     width: auto;
   }
-  /* line 55, ../sass/phone.scss */
+  /* line 54, ../sass/phone.scss */
+  body div#middle #content .form {
+    height: 395px;
+  }
+  /* line 56, ../sass/phone.scss */
   body div#middle #content .form form {
     text-align: center;
   }
-  /* line 58, ../sass/phone.scss */
+  /* line 59, ../sass/phone.scss */
   body div#middle #content .form form dl dt {
     margin-left: 13%;
   }
-  /* line 67, ../sass/phone.scss */
+  /* line 62, ../sass/phone.scss */
+  body div#middle #content .form form dl dd {
+    margin-bottom: 13px;
+  }
+  /* line 66, ../sass/phone.scss */
+  body div#middle #content .form form input {
+    margin-top: 6%;
+  }
+  /* line 72, ../sass/phone.scss */
+  body div#middle #bottom_content {
+    height: 46px;
+  }
+  /* line 74, ../sass/phone.scss */
+  body div#middle #bottom_content .properties {
+    height: 46px;
+  }
+  /* line 76, ../sass/phone.scss */
   body div#middle #bottom_content .properties h3 {
     font-size: 0.8em;
     margin-right: 2%;
   }
-  /* line 71, ../sass/phone.scss */
+  /* line 80, ../sass/phone.scss */
   body div#middle #bottom_content .properties div {
     margin-right: 16%;
     width: 8%;
   }
-  /* line 78, ../sass/phone.scss */
-  body div#middle #bottom_content #apartments .apartment {
+  /* line 86, ../sass/phone.scss */
+  body div#middle #bottom_content .properties #apartments .apartment {
+    background: none;
     float: none;
+    height: 100%;
+    width: 100%;
   }
-  /* line 81, ../sass/phone.scss */
-  body div#middle #bottom_content #apartments .apartment .box
-  p {
-    font-size: 0.8em;
-    color: red;
+  /* line 91, ../sass/phone.scss */
+  body div#middle #bottom_content .properties #apartments .apartment .box {
+    margin: 7% auto;
+  }
+  /* line 97, ../sass/phone.scss */
+  body div#middle #bottom_content #footer {
+    position: relative;
+    margin-top: 780px;
+    height: 240px;
+  }
+  /* line 101, ../sass/phone.scss */
+  body div#middle #bottom_content #footer img {
+    margin-right: 0;
+  }
+  /* line 104, ../sass/phone.scss */
+  body div#middle #bottom_content #footer ul {
+    text-align: center;
+  }
+  /* line 106, ../sass/phone.scss */
+  body div#middle #bottom_content #footer ul li {
+    float: none;
+    margin-bottom: 14px;
   }
 }

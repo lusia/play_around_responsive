@@ -19,14 +19,44 @@
   }
   /* line 24, ../sass/tablet.scss */
   body div#middle #menu ul li {
+    width: 15%;
     font-size: 0.7em;
   }
-  /* line 30, ../sass/tablet.scss */
+  /* line 32, ../sass/tablet.scss */
+  body div#middle #content .form form {
+    font-size: 0.6em;
+  }
+  /* line 35, ../sass/tablet.scss */
+  body div#middle #content .form form dl dt {
+    margin-right: 8%;
+  }
+  /* line 41, ../sass/tablet.scss */
   body div#middle #content .semi {
     width: 606px;
   }
-  /* line 36, ../sass/tablet.scss */
+  /* line 45, ../sass/tablet.scss */
+  body div#middle #bottom_content {
+    height: 540px;
+  }
+  /* line 48, ../sass/tablet.scss */
   body div#middle #bottom_content .properties h3 {
     line-height: 165%;
+  }
+  /* line 54, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer {
+    height: 240px;
+  }
+  /* line 56, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer img {
+    margin-right: 0;
+  }
+  /* line 59, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer ul {
+    text-align: center;
+  }
+  /* line 61, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer ul li {
+    float: none;
+    margin-bottom: 14px;
   }
 }

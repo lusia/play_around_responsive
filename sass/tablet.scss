@@ -22,16 +22,28 @@
       #menu {
         ul {
           li {
+            width: 15%;
             font-size: 0.7em;
           }
         }
       }
       #content {
+        .form {
+          form {
+            font-size: 0.6em;
+            dl {
+              dt {
+                margin-right: 8%;
+              }
+            }
+          }
+        }
         .semi {
           width: $width;
         }
       }
       #bottom_content {
+        height: 540px;
         .properties {
           h3 {
             line-height: 165%;
@@ -39,6 +51,19 @@
 
         }
 
+        #footer {
+          height: 240px;
+          img {
+            margin-right: 0;
+          }
+          ul {
+            text-align: center;
+            li {
+              float: none;
+              margin-bottom: 14px;
+            }
+          }
+        }
       }
     }
   }

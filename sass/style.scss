@@ -17,16 +17,19 @@ $font-size: 12px;
   float: right;
 }
 
+.dec_non {
+  text-decoration: none;
+  color: white;
+}
+
 body {
   background-color: #c7dec7;
   width: 100%;
-
   div#body_top {
     width: 100%;
     height: 130px;
     @include background-image(linear-gradient(#3b546b, #012e58));
   }
-
   div#middle {
     width: $width;
     margin: -103px auto 0 auto;
@@ -57,26 +60,24 @@ body {
       background-color: #476d47;
       width: 100%;
       height: 42px;
+      @include box-shadow(#888 0 9px 10px 5px);
       ul {
-        padding-top: 1%;
         li {
           width: (floor(100%/7));
           text-align: center;
-          a {
-            color: white;
-            text-decoration: none;
-          }
+          display: block;
+          padding-top: 14px;
         }
         .activ_link {
           background-color: blue;
-          width: (floor(100%/7));
-          height: 100%;
+          width: 10%;
+        height: 28px;
         }
-
       }
     }
     #content {
       position: relative;
+      @include box-shadow(#888 0 9px 10px 5px);
       .form {
         background-color: #a7c2dc;
         height: 388px;
@@ -89,25 +90,25 @@ body {
         form {
           margin-top: 25px;
           font-size: 0.7em;
-          text-align: center;
           dl {
             dt {
               margin-left: 1%;
-              display: inline-block;
-              width: 7%;
+              width: 8%;
+              margin-right: 4%;
             }
             dd {
-              margin: 0 0 1% 3%;
-              display: inline;
+              margin-bottom: 6px;
               input {
                 margin: 2px 2px 0 2px;
               }
             }
           }
-          input {
+          .search_button {
             background-color: green;
-            margin-top: 5%;
+            margin: 1% 0 0 10px;
             border: 0;
+            position: absolute;
+            z-index: 5;
           }
         }
       }
@@ -116,11 +117,12 @@ body {
         position: absolute;
         bottom: 0;
       }
-
     }
     #bottom_content {
+      @include box-shadow(#888 0 9px 10px 5px);
+      position: relative;
       background-color: white;
-      height: 300px;
+      height: 345px;
       .properties {
         width: 100% - 10;
         margin-left: 5%;
@@ -137,9 +139,7 @@ body {
           float: left;
           width: 24%;
           a {
-            text-decoration: none;
             img {
-
             }
             p {
               color: #58697d;
@@ -181,16 +181,40 @@ body {
                 width: 35%;
                 height: 35%;
               }
-              p{
+              p {
                 position: absolute;
                 color: white;
                 right: 3%;
                 bottom: 8%;
                 @include rotate(-35deg);
               }
+              span {
+                font-size: 0.9em;
+              }
             }
           }
-
+        }
+      }
+      #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 41px;
+        @include background-image(linear-gradient(#024788, #012b52));
+        padding-top: 1%;
+        ul {
+          margin-top: 8px;
+          margin-left: 8px;
+          li {
+            color: white;
+            margin-left: 15px;
+            span {
+              margin: 0 13px 0 13px;
+            }
+          }
+        }
+        p {
+          color: white;
         }
       }
     }

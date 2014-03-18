@@ -37,11 +37,11 @@
       #menu {
         height: auto;
         ul {
-          padding-bottom: 10%;
+          padding-bottom: 2%;
           li {
             float: none;
             width: auto;
-            margin-top: 7%;
+            margin-bottom: 4%;
           }
           .activ_link {
             width: auto;
@@ -52,18 +52,27 @@
         img {
         }
         .form {
+          height: 395px;
           form {
             text-align: center;
             dl {
               dt {
                 margin-left: 13%;
               }
+              dd {
+                margin-bottom: 13px;
+              }
+            }
+            input {
+              margin-top: 6%;
             }
           }
         }
       }
       #bottom_content {
+        height: 46px;
         .properties {
+          height: 46px;
           h3 {
             font-size: 0.8em;
             margin-right: 2%;
@@ -72,22 +81,35 @@
             margin-right: 16%;
             width: 8%;
           }
-        }
 
-        #apartments {
-          .apartment {
-            float: none;
-            .box
-            p {
-              font-size: 0.8em;
-//              @include rotate(-50deg);
-              color: red;
+          #apartments {
+            .apartment {
+              background: none;
+              float: none;
+              height: 100%;
+              width: 100%;
+              .box {
+                margin: 7% auto;
+              }
             }
           }
         }
-
+        #footer {
+          position: relative;
+          margin-top: 780px;
+          height: 240px;
+          img {
+            margin-right: 0;
+          }
+          ul {
+            text-align: center;
+            li {
+              float: none;
+              margin-bottom: 14px;
+            }
+          }
+        }
       }
-
     }
   }
 }

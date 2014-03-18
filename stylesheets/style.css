@@ -79,11 +79,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* line 20, ../sass/style.scss */
+.dec_non {
+  text-decoration: none;
+  color: white;
+}
+
+/* line 25, ../sass/style.scss */
 body {
   background-color: #c7dec7;
   width: 100%;
 }
-/* line 24, ../sass/style.scss */
+/* line 28, ../sass/style.scss */
 body div#body_top {
   width: 100%;
   height: 130px;
@@ -93,111 +99,110 @@ body div#body_top {
   background-image: -o-linear-gradient(#3b546b, #012e58);
   background-image: linear-gradient(#3b546b, #012e58);
 }
-/* line 30, ../sass/style.scss */
+/* line 33, ../sass/style.scss */
 body div#middle {
   width: 951px;
   margin: -103px auto 0 auto;
 }
-/* line 33, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 body div#middle .top {
   background-image: url("../images/background/bg_top2.png");
   width: 100%;
   height: 91px;
 }
-/* line 37, ../sass/style.scss */
+/* line 40, ../sass/style.scss */
 body div#middle .top img {
   margin-top: 2%;
 }
-/* line 40, ../sass/style.scss */
+/* line 43, ../sass/style.scss */
 body div#middle .top h2 {
   margin: -25px 0 0 28%;
 }
-/* line 43, ../sass/style.scss */
+/* line 46, ../sass/style.scss */
 body div#middle .top .phone {
   margin: -43px 0 0 82%;
 }
-/* line 45, ../sass/style.scss */
+/* line 48, ../sass/style.scss */
 body div#middle .top .phone img {
   margin-right: 10px;
 }
-/* line 48, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 body div#middle .top .phone p {
   color: #476d47;
 }
-/* line 51, ../sass/style.scss */
+/* line 54, ../sass/style.scss */
 body div#middle .top .phone .number {
   color: #012e58;
 }
-/* line 56, ../sass/style.scss */
+/* line 59, ../sass/style.scss */
 body div#middle #menu {
   background-color: #476d47;
   width: 100%;
   height: 42px;
+  -webkit-box-shadow: #888888 0 9px 10px 5px;
+  -moz-box-shadow: #888888 0 9px 10px 5px;
+  box-shadow: #888888 0 9px 10px 5px;
 }
-/* line 60, ../sass/style.scss */
-body div#middle #menu ul {
-  padding-top: 1%;
-}
-/* line 62, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 body div#middle #menu ul li {
   width: 14%;
   text-align: center;
+  display: block;
+  padding-top: 14px;
 }
-/* line 65, ../sass/style.scss */
-body div#middle #menu ul li a {
-  color: white;
-  text-decoration: none;
-}
-/* line 70, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 body div#middle #menu ul .activ_link {
   background-color: blue;
-  width: 14%;
-  height: 100%;
+  width: 10%;
+  height: 28px;
 }
 /* line 78, ../sass/style.scss */
 body div#middle #content {
   position: relative;
+  -webkit-box-shadow: #888888 0 9px 10px 5px;
+  -moz-box-shadow: #888888 0 9px 10px 5px;
+  box-shadow: #888888 0 9px 10px 5px;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 body div#middle #content .form {
   background-color: #a7c2dc;
   height: 388px;
 }
-/* line 83, ../sass/style.scss */
+/* line 84, ../sass/style.scss */
 body div#middle #content .form h2 {
   color: #1b4a7b;
   padding-top: 2%;
   text-align: center;
   font-size: 1.2em;
 }
-/* line 89, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 body div#middle #content .form form {
   margin-top: 25px;
   font-size: 0.7em;
-  text-align: center;
 }
 /* line 94, ../sass/style.scss */
 body div#middle #content .form form dl dt {
   margin-left: 1%;
-  display: inline-block;
-  width: 7%;
+  width: 8%;
+  margin-right: 4%;
 }
 /* line 99, ../sass/style.scss */
 body div#middle #content .form form dl dd {
-  margin: 0 0 1% 3%;
-  display: inline;
+  margin-bottom: 6px;
 }
-/* line 102, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 body div#middle #content .form form dl dd input {
   margin: 2px 2px 0 2px;
 }
-/* line 107, ../sass/style.scss */
-body div#middle #content .form form input {
+/* line 106, ../sass/style.scss */
+body div#middle #content .form form .search_button {
   background-color: green;
-  margin-top: 5%;
+  margin: 1% 0 0 10px;
   border: 0;
+  position: absolute;
+  z-index: 5;
 }
-/* line 114, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 body div#middle #content .semi {
   float: none;
   position: absolute;
@@ -205,16 +210,20 @@ body div#middle #content .semi {
 }
 /* line 121, ../sass/style.scss */
 body div#middle #bottom_content {
+  -webkit-box-shadow: #888888 0 9px 10px 5px;
+  -moz-box-shadow: #888888 0 9px 10px 5px;
+  box-shadow: #888888 0 9px 10px 5px;
+  position: relative;
   background-color: white;
-  height: 300px;
+  height: 345px;
 }
-/* line 124, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 body div#middle #bottom_content .properties {
   width: 90%;
   margin-left: 5%;
   height: 50px;
 }
-/* line 128, ../sass/style.scss */
+/* line 130, ../sass/style.scss */
 body div#middle #bottom_content .properties h3 {
   width: 26%;
   text-align: center;
@@ -231,14 +240,10 @@ body div#middle #bottom_content .properties h3 {
   height: 100%;
   line-height: 153%;
 }
-/* line 136, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 body div#middle #bottom_content .properties div {
   float: left;
   width: 24%;
-}
-/* line 139, ../sass/style.scss */
-body div#middle #bottom_content .properties div a {
-  text-decoration: none;
 }
 /* line 144, ../sass/style.scss */
 body div#middle #bottom_content .properties div a p {
@@ -296,4 +301,39 @@ body div#middle #bottom_content .properties #apartments .apartment .box p {
   -ms-transform: rotate(-35deg);
   -o-transform: rotate(-35deg);
   transform: rotate(-35deg);
+}
+/* line 191, ../sass/style.scss */
+body div#middle #bottom_content .properties #apartments .apartment .box span {
+  font-size: 0.9em;
+}
+/* line 198, ../sass/style.scss */
+body div#middle #bottom_content #footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 41px;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #024788), color-stop(100%, #012b52));
+  background-image: -webkit-linear-gradient(#024788, #012b52);
+  background-image: -moz-linear-gradient(#024788, #012b52);
+  background-image: -o-linear-gradient(#024788, #012b52);
+  background-image: linear-gradient(#024788, #012b52);
+  padding-top: 1%;
+}
+/* line 205, ../sass/style.scss */
+body div#middle #bottom_content #footer ul {
+  margin-top: 8px;
+  margin-left: 8px;
+}
+/* line 208, ../sass/style.scss */
+body div#middle #bottom_content #footer ul li {
+  color: white;
+  margin-left: 15px;
+}
+/* line 211, ../sass/style.scss */
+body div#middle #bottom_content #footer ul li span {
+  margin: 0 13px 0 13px;
+}
+/* line 216, ../sass/style.scss */
+body div#middle #bottom_content #footer p {
+  color: white;
 }
