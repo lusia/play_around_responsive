@@ -42,30 +42,30 @@
   body div#middle #bottom_content .properties {
     height: 8%;
   }
-  /* line 52, ../sass/tablet.scss */
+  /* line 53, ../sass/tablet.scss */
   body div#middle #bottom_content .properties #apartments .apartment .box span {
     font-size: 0.6em;
   }
-  /* line 59, ../sass/tablet.scss */
+  /* line 60, ../sass/tablet.scss */
   body div#middle #bottom_content #footer {
     height: 247px;
   }
-  /* line 61, ../sass/tablet.scss */
+  /* line 62, ../sass/tablet.scss */
   body div#middle #bottom_content #footer img {
     position: relative;
   }
-  /* line 64, ../sass/tablet.scss */
+  /* line 65, ../sass/tablet.scss */
   body div#middle #bottom_content #footer ul {
     text-align: center;
     position: absolute;
     left: 40%;
   }
-  /* line 68, ../sass/tablet.scss */
+  /* line 69, ../sass/tablet.scss */
   body div#middle #bottom_content #footer ul li {
     float: none;
     margin-bottom: 14px;
   }
-  /* line 73, ../sass/tablet.scss */
+  /* line 74, ../sass/tablet.scss */
   body div#middle #bottom_content #footer p {
     position: absolute;
     bottom: 0;
