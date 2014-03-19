@@ -71,7 +71,7 @@ body {
         .activ_link {
           background-color: blue;
           width: 10%;
-        height: 28px;
+          height: 28px;
         }
       }
     }
@@ -119,21 +119,22 @@ body {
       }
     }
     #bottom_content {
-      @include box-shadow(#888 0 9px 10px 5px);
+      @include box-shadow(#888 0 15px 10px 5px);
       position: relative;
       background-color: white;
       height: 345px;
       .properties {
         width: 100% - 10;
         margin-left: 5%;
-        height: 50px;
+        height: 12%;
         h3 {
+          color: white;
           width: 26%;
           text-align: center;
           @include border-radius(5px);
           @include background-image(linear-gradient(#798d79, #314e31));
           height: 100%;
-          line-height: 153%;
+          padding-top: 2%;
         }
         div {
           float: left;
@@ -154,11 +155,11 @@ body {
         #apartments {
           background-color: #c7dec7;
           width: 100%;
-          height: 230px;
+          height: 500%;
 
           .apartment {
             background-image: url("../images/background/square.png");
-            height: 80%;
+            height: 86%;
             width: (floor(100% / 3));
             background-repeat: no-repeat;
             float: left;
@@ -202,6 +203,9 @@ body {
         height: 41px;
         @include background-image(linear-gradient(#024788, #012b52));
         padding-top: 1%;
+        img{
+          position: relative;
+        }
         ul {
           margin-top: 8px;
           margin-left: 8px;
@@ -215,6 +219,7 @@ body {
         }
         p {
           color: white;
+          margin-right: 5px;
         }
       }
     }

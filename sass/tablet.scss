@@ -45,23 +45,35 @@
       #bottom_content {
         height: 540px;
         .properties {
-          h3 {
-            line-height: 165%;
+          height: 8%;
+          #apartments {
+            .apartment {
+              .box {
+                span {
+                  font-size: 0.6em;
+                }
+              }
+            }
           }
-
         }
-
         #footer {
-          height: 240px;
+          height: 247px;
           img {
-            margin-right: 0;
+            position: relative;
           }
           ul {
             text-align: center;
+            position: absolute;
+            left: 40%;
             li {
               float: none;
               margin-bottom: 14px;
             }
+          }
+          p{
+            position: absolute;
+            bottom: 0;
+            left: 73%;
           }
         }
       }

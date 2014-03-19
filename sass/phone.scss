@@ -1,3 +1,5 @@
+@import "compass";
+@import "compass/css3/transform";
 @media screen and (max-width: 605px) {
   .phone_hide {
     display: none;
@@ -6,7 +8,7 @@
     display: block;
     height: 100px;
     background-color: white;
-    padding: 2% 0 0 25%;
+    padding: 2% 0 0 4%;
     .number {
       margin-top: 2%;
       color: #012e58;
@@ -27,7 +29,7 @@
       width: 100%;
       margin: 0 auto;
       .top {
-        height: 158px;
+        height: 160px;
         background-repeat: no-repeat;
         img {
           height: 45px;
@@ -35,6 +37,7 @@
 
       }
       #menu {
+        @include box-shadow(none);
         height: auto;
         ul {
           padding-bottom: 2%;
@@ -49,6 +52,7 @@
         }
       }
       #content {
+        @include box-shadow(none);
         img {
         }
         .form {
@@ -70,7 +74,8 @@
         }
       }
       #bottom_content {
-        height: 46px;
+        @include box-shadow(none);
+        height: 54px;
         .properties {
           height: 46px;
           h3 {
@@ -83,7 +88,11 @@
           }
 
           #apartments {
+            background: none;
+            width: 50%;
+            height: 497%;
             .apartment {
+              margin-top: 18px;
               background: none;
               float: none;
               height: 100%;
@@ -98,15 +107,19 @@
           position: relative;
           margin-top: 780px;
           height: 240px;
-          img {
-            margin-right: 0;
-          }
           ul {
             text-align: center;
+            position: absolute;
+            left: 40%;
             li {
               float: none;
               margin-bottom: 14px;
             }
+          }
+          p {
+            position: absolute;
+            bottom: 0;
+            left: 73%;
           }
         }
       }

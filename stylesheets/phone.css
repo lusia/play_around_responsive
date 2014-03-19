@@ -1,129 +1,152 @@
 @media screen and (max-width: 605px) {
-  /* line 2, ../sass/phone.scss */
+  /* line 4, ../sass/phone.scss */
   .phone_hide {
     display: none;
   }
 
-  /* line 5, ../sass/phone.scss */
+  /* line 7, ../sass/phone.scss */
   .call_us {
     display: block;
     height: 100px;
     background-color: white;
-    padding: 2% 0 0 25%;
+    padding: 2% 0 0 4%;
   }
-  /* line 10, ../sass/phone.scss */
+  /* line 12, ../sass/phone.scss */
   .call_us .number {
     margin-top: 2%;
     color: #012e58;
   }
 
-  /* line 15, ../sass/phone.scss */
+  /* line 17, ../sass/phone.scss */
   .take_photo {
     display: block;
   }
-  /* line 17, ../sass/phone.scss */
+  /* line 19, ../sass/phone.scss */
   .take_photo img {
     float: left;
   }
 
-  /* line 26, ../sass/phone.scss */
+  /* line 28, ../sass/phone.scss */
   body div#middle {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 29, ../sass/phone.scss */
+  /* line 31, ../sass/phone.scss */
   body div#middle .top {
-    height: 158px;
+    height: 160px;
     background-repeat: no-repeat;
   }
-  /* line 32, ../sass/phone.scss */
+  /* line 34, ../sass/phone.scss */
   body div#middle .top img {
     height: 45px;
   }
-  /* line 37, ../sass/phone.scss */
+  /* line 39, ../sass/phone.scss */
   body div#middle #menu {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
     height: auto;
   }
-  /* line 39, ../sass/phone.scss */
+  /* line 42, ../sass/phone.scss */
   body div#middle #menu ul {
     padding-bottom: 2%;
   }
-  /* line 41, ../sass/phone.scss */
+  /* line 44, ../sass/phone.scss */
   body div#middle #menu ul li {
     float: none;
     width: auto;
     margin-bottom: 4%;
   }
-  /* line 46, ../sass/phone.scss */
+  /* line 49, ../sass/phone.scss */
   body div#middle #menu ul .activ_link {
     width: auto;
   }
   /* line 54, ../sass/phone.scss */
+  body div#middle #content {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  /* line 58, ../sass/phone.scss */
   body div#middle #content .form {
     height: 395px;
   }
-  /* line 56, ../sass/phone.scss */
+  /* line 60, ../sass/phone.scss */
   body div#middle #content .form form {
     text-align: center;
   }
-  /* line 59, ../sass/phone.scss */
+  /* line 63, ../sass/phone.scss */
   body div#middle #content .form form dl dt {
     margin-left: 13%;
   }
-  /* line 62, ../sass/phone.scss */
+  /* line 66, ../sass/phone.scss */
   body div#middle #content .form form dl dd {
     margin-bottom: 13px;
   }
-  /* line 66, ../sass/phone.scss */
+  /* line 70, ../sass/phone.scss */
   body div#middle #content .form form input {
     margin-top: 6%;
   }
-  /* line 72, ../sass/phone.scss */
+  /* line 76, ../sass/phone.scss */
   body div#middle #bottom_content {
-    height: 46px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    height: 54px;
   }
-  /* line 74, ../sass/phone.scss */
+  /* line 79, ../sass/phone.scss */
   body div#middle #bottom_content .properties {
     height: 46px;
   }
-  /* line 76, ../sass/phone.scss */
+  /* line 81, ../sass/phone.scss */
   body div#middle #bottom_content .properties h3 {
     font-size: 0.8em;
     margin-right: 2%;
   }
-  /* line 80, ../sass/phone.scss */
+  /* line 85, ../sass/phone.scss */
   body div#middle #bottom_content .properties div {
     margin-right: 16%;
     width: 8%;
   }
-  /* line 86, ../sass/phone.scss */
+  /* line 90, ../sass/phone.scss */
+  body div#middle #bottom_content .properties #apartments {
+    background: none;
+    width: 50%;
+    height: 497%;
+  }
+  /* line 94, ../sass/phone.scss */
   body div#middle #bottom_content .properties #apartments .apartment {
+    margin-top: 18px;
     background: none;
     float: none;
     height: 100%;
     width: 100%;
   }
-  /* line 91, ../sass/phone.scss */
+  /* line 100, ../sass/phone.scss */
   body div#middle #bottom_content .properties #apartments .apartment .box {
     margin: 7% auto;
   }
-  /* line 97, ../sass/phone.scss */
+  /* line 106, ../sass/phone.scss */
   body div#middle #bottom_content #footer {
     position: relative;
     margin-top: 780px;
     height: 240px;
   }
-  /* line 101, ../sass/phone.scss */
-  body div#middle #bottom_content #footer img {
-    margin-right: 0;
-  }
-  /* line 104, ../sass/phone.scss */
+  /* line 110, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul {
     text-align: center;
+    position: absolute;
+    left: 40%;
   }
-  /* line 106, ../sass/phone.scss */
+  /* line 114, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul li {
     float: none;
     margin-bottom: 14px;
+  }
+  /* line 119, ../sass/phone.scss */
+  body div#middle #bottom_content #footer p {
+    position: absolute;
+    bottom: 0;
+    left: 73%;
   }
 }

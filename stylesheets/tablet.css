@@ -38,25 +38,37 @@
   body div#middle #bottom_content {
     height: 540px;
   }
-  /* line 48, ../sass/tablet.scss */
-  body div#middle #bottom_content .properties h3 {
-    line-height: 165%;
+  /* line 47, ../sass/tablet.scss */
+  body div#middle #bottom_content .properties {
+    height: 8%;
   }
-  /* line 54, ../sass/tablet.scss */
-  body div#middle #bottom_content #footer {
-    height: 240px;
-  }
-  /* line 56, ../sass/tablet.scss */
-  body div#middle #bottom_content #footer img {
-    margin-right: 0;
+  /* line 52, ../sass/tablet.scss */
+  body div#middle #bottom_content .properties #apartments .apartment .box span {
+    font-size: 0.6em;
   }
   /* line 59, ../sass/tablet.scss */
-  body div#middle #bottom_content #footer ul {
-    text-align: center;
+  body div#middle #bottom_content #footer {
+    height: 247px;
   }
   /* line 61, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer img {
+    position: relative;
+  }
+  /* line 64, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer ul {
+    text-align: center;
+    position: absolute;
+    left: 40%;
+  }
+  /* line 68, ../sass/tablet.scss */
   body div#middle #bottom_content #footer ul li {
     float: none;
     margin-bottom: 14px;
+  }
+  /* line 73, ../sass/tablet.scss */
+  body div#middle #bottom_content #footer p {
+    position: absolute;
+    bottom: 0;
+    left: 73%;
   }
 }
