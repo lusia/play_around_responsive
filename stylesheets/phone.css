@@ -1,40 +1,39 @@
 @media screen and (max-width: 605px) {
-  /* line 4, ../sass/phone.scss */
+  /* line 5, ../sass/phone.scss */
   .phone_hide {
     display: none;
   }
 
-  /* line 7, ../sass/phone.scss */
+  /* line 8, ../sass/phone.scss */
   .call_us {
     display: block;
     height: 100px;
     background-color: white;
     padding: 2% 0 0 4%;
   }
-  /* line 12, ../sass/phone.scss */
+  /* line 13, ../sass/phone.scss */
   .call_us .number {
     margin-top: 2%;
     color: #012e58;
   }
 
-  /* line 17, ../sass/phone.scss */
+  /* line 18, ../sass/phone.scss */
   .take_photo {
     display: block;
   }
-  /* line 19, ../sass/phone.scss */
+  /* line 20, ../sass/phone.scss */
   .take_photo img {
     float: left;
   }
 
-  /* line 28, ../sass/phone.scss */
+  /* line 29, ../sass/phone.scss */
   body div#middle {
     width: 100%;
     margin: 0 auto;
   }
-  /* line 31, ../sass/phone.scss */
+  /* line 32, ../sass/phone.scss */
   body div#middle .top {
     height: 160px;
-    background-repeat: no-repeat;
   }
   /* line 34, ../sass/phone.scss */
   body div#middle .top img {
@@ -92,7 +91,7 @@
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
     box-shadow: none;
-    height: 54px;
+    height: 60px;
   }
   /* line 79, ../sass/phone.scss */
   body div#middle #bottom_content .properties {
@@ -100,7 +99,7 @@
   }
   /* line 81, ../sass/phone.scss */
   body div#middle #bottom_content .properties h3 {
-    font-size: 0.8em;
+    font-size: 0.6em;
     margin-right: 2%;
   }
   /* line 85, ../sass/phone.scss */
@@ -111,7 +110,7 @@
   /* line 90, ../sass/phone.scss */
   body div#middle #bottom_content .properties #apartments {
     background: none;
-    width: 50%;
+    width: 100%;
   }
   /* line 94, ../sass/phone.scss */
   body div#middle #bottom_content .properties #apartments .apartment {
@@ -123,26 +122,33 @@
   }
   /* line 100, ../sass/phone.scss */
   body div#middle #bottom_content .properties #apartments .apartment .box {
-    margin: 7% auto;
+    width: 100%;
+    height: auto;
+    margin: 15% auto;
   }
-  /* line 106, ../sass/phone.scss */
+  /* line 104, ../sass/phone.scss */
+  body div#middle #bottom_content .properties #apartments .apartment .box img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 112, ../sass/phone.scss */
   body div#middle #bottom_content #footer {
     position: relative;
-    margin-top: 780px;
+    margin-top: 1450px;
     height: 240px;
   }
-  /* line 110, ../sass/phone.scss */
+  /* line 116, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul {
     text-align: center;
     position: absolute;
     left: 40%;
   }
-  /* line 114, ../sass/phone.scss */
+  /* line 120, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul li {
     float: none;
     margin-bottom: 14px;
   }
-  /* line 119, ../sass/phone.scss */
+  /* line 125, ../sass/phone.scss */
   body div#middle #bottom_content #footer p {
     position: absolute;
     bottom: 0;

@@ -47,18 +47,24 @@
         .properties {
           height: 8%;
           #apartments {
+            height: 177px;
             .apartment {
               .box {
-
-                span {
-                  font-size: 0.6em;
+                width: 165px;
+                height: 86px;
+                img {
+                  width: 100%;
+                  height: 100%;
                 }
+              }
+              span {
+                font-size: 0.6em;
               }
             }
           }
         }
         #footer {
-          height: 247px;
+          height: 255px;
           img {
             position: relative;
           }

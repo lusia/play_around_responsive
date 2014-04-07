@@ -12,200 +12,207 @@
 <div id="body_top" class="phone_hide">
 </div>
 <div id="middle">
-    <div class="top">
-        <img src="images/company_name.png">
+<div class="top">
+    <img src="images/company_name.png">
 
-        <h2 class="phone_hide">SOME SLOGAN GOES HERE</h2>
+    <h2 class="phone_hide">SOME SLOGAN GOES HERE</h2>
 
-        <div class="phone phone_hide">
-            <img class="fl" src="images/icons/call_phone.png">
+    <div class="phone phone_hide">
+        <img class="fl" src="images/icons/call_phone.png">
 
-            <p class="tablet_hide">Call us at<br></p>
+        <p class="tablet_hide">Call us at<br></p>
 
-            <p class="number">(333) 999-9999</p>
+        <p class="number">(333) 999-9999</p>
+    </div>
+    <div class="display_phone call_us">
+        <img src="images/icons/call_phone.png">
+
+        <p class="number">(333) 999-9999</p>
+    </div>
+
+</div>
+<div id="menu">
+    <ul>
+        <li class="fl"><a class="dec_non" href="#">Home</a></li>
+        <li class="fl"><a class="dec_non" href="#">About Company</a></li>
+        <li class="activ_link fl"><a class="dec_non" href="#">Properties</a></li>
+        <li class="fl"><a class="dec_non" href="#">Amenities</a></li>
+        <li class="fl"><a class="dec_non" href="#">Photo Gallery</a></li>
+        <li class="fl"><a class="dec_non" href="#">Blog</a></li>
+        <li class="fl"><a class="dec_non" href="#">Contact Us</a></li>
+    </ul>
+</div>
+
+<div id="content">
+    <img class="phone_hide fl" src="images/photos/1photo.jpg">
+    <img class="tablet_hide phone_hide fl" src="images/photos/2photo.jpg">
+
+    <div class="form">
+        <h2>FIND A PROPERTY</h2>
+        <img class="phone_hide fr" src="images/icons/loupe.png">
+
+        <form action="" method="GET">
+            <dl>
+                <dt class="fl"><label class="first">BEDROOMS</label></dt>
+                <dd><input type="radio" id="any">
+                    <label for="any">Any</label>
+                    <input type="radio" id="one">
+                    <label for="one">1</label>
+                    <input type="radio" id="two">
+                    <label for="two">2</label>
+                    <input type="radio" id="three">
+                    <label for="three">3</label>
+                </dd>
+                <dt class="fl"><label class="first">TYPE</label></dt>
+                <dd><input type="radio" id="any_type">
+                    <label for="any_type">Any</label>
+                    <input type="radio" id="apt">
+                    <label for="apt">Apt.</label>
+                    <input type="radio" id="townhome">
+                    <label for="townhome">Townhome</label>
+                </dd>
+                <dt class="fl"><label class="first">COMMUNITY</label></dt>
+                <dd><select class="select" name="community">
+                    <option value="no_reference">No reference</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                </select>
+                </dd>
+                <dt class="fl"><label class="first">RENT</label></dt>
+                <dd><select class="select rent" name="rent">
+                    <option value="no_reference">No reference</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                </select>
+                </dd>
+                <dt class="fl"><label class="first">SQ.FOOTAGE</label></dt>
+                <dd><select class="select" name="footage">
+                    <option value="no_reference">No reference</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                </select>
+                </dd>
+
+                <dt class="fl"><label class="first">AVAILABILITY</label></dt>
+                <dd><select class="select" name="availability">
+                    <option value="no_reference">No reference</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                </select>
+                </dd>
+                <dt class="fl"><label class="first">PETS POLICY</label></dt>
+                <dd><select class="select" name="pets">
+                    <option value="no_reference">No reference</option>
+                    <option value="one">One</option>
+                    <option value="two">Two</option>
+                </select>
+                </dd>
+                <dt class="fl"><label class="first">GARAGE</label></dt>
+                <dd><input type="radio" id="any_garage">
+                    <label for="any_garage">Any</label>
+                    <input type="radio" id="attached">
+                    <label for="attached">Attached</label>
+                    <input type="radio" id="detached">
+                    <label for="detached">Detached</label><br>
+                </dd>
+            </dl>
+            <input class="search_button" id="submit" type="submit" value="SEARCH NOW">
+        </form>
+    </div>
+    <img class="semi phone_hide" src="images/semicircle.png">
+</div>
+<div id="bottom_content">
+    <div class="properties">
+        <h3 class="fl">FEATURED PROPERTIES</h3>
+
+        <div>
+            <a class="dec_non phone_hide" href="#" target="_blank">
+                <img class="fl" src="images/photos/camera.jpg" alt="take a photo tour">
+
+                <p>TAKE A <span>PHOTO TOUR</span></p>
+            </a>
+            <a class="dec_non display_phone take_photo" href="#" target="_blank">
+                <img src="images/photos/camera.jpg" alt="take a photo tour">
+            </a>
         </div>
-        <div class="display_phone call_us">
-            <img src="images/icons/call_phone.png">
+        <div>
+            <a class="dec_non phone_hide" href="#" target="_blank">
+                <img class="fl" src="images/photos/dolar.jpg" alt="special offers">
 
-            <p class="number">(333) 999-9999</p>
+                <p>VIEW <span>SPECIAL OFFERS</span></p>
+            </a>
+            <a class="dec_non display_phone take_photo" href="#" target="_blank">
+                <img src="images/photos/dolar.jpg" alt="special offers">
+            </a>
+        </div>
+        <div>
+            <a class="dec_non phone_hide" href="#" target="_blank">
+                <img class="fl" src="images/photos/mobile.jpg" alt="read the blog">
+
+                <p>READ THE <span>COMCAMP BLOG</span></p>
+            </a>
+            <a class="dec_non display_phone take_photo" href="#" target="_blank">
+                <img src="images/photos/mobile.jpg" alt="read the blog">
+            </a>
+
+        </div>
+        <div id="apartments">
+            <div class="apartment">
+                <div class="box">
+                    <img src="images/photos/3photo.jpg" alt="apartment">
+                    <img class="price" src="images/triangle.png" alt="triangle">
+
+                    <p>$950</p>
+                </div>
+                <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
+
+            </div>
+            <div class="apartment">
+                <div class="box">
+                    <img src="images/photos/3photo.jpg" alt="apartment">
+                    <img class="price" src="images/triangle.png" alt="triangle">
+
+                    <p>$950</p>
+                </div>
+                <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
+
+            </div>
+            <div class="apartment">
+                <div class="box">
+                    <img src="images/photos/3photo.jpg" alt="apartment">
+                    <img class="price" src="images/triangle.png" alt="triangle">
+
+                    <p>$950</p>
+                </div>
+                <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
+
+            </div>
         </div>
 
     </div>
-    <div id="menu">
+
+    <div id="footer">
+        <img class="fl" src="images/icons/house.png">
         <ul>
-            <li class="fl"><a class="dec_non" href="#">Home</a></li>
-            <li class="fl"><a class="dec_non" href="#">About Company</a></li>
-            <li class="activ_link fl"><a class="dec_non" href="#">Properties</a></li>
-            <li class="fl"><a  class="dec_non" href="#">Amenities</a></li>
-            <li class="fl"><a  class="dec_non" href="#">Photo Gallery</a></li>
-            <li class="fl"><a  class="dec_non" href="#">Blog</a></li>
-            <li class="fl"><a  class="dec_non" href="#">Contact Us</a></li>
+            <li class="fl"><a class="dec_non" href="#">Home</a><span class="phone_hide tablet_hide"> | </span></li>
+            <li class="fl"><a class="dec_non" href="#">About us</a><span class="phone_hide tablet_hide"> | </span>
+            </li>
+            <li class="fl"><a class="dec_non" href="#">Amenities</a><span class="phone_hide tablet_hide"> | </span>
+            </li>
+            <li class="fl"><a class="dec_non" href="#">Photo Gallery</a><span
+                    class="phone_hide tablet_hide"> | </span></li>
+            <li class="fl"><a class="dec_non" href="#">Blog</a><span class="phone_hide tablet_hide"> | </span></li>
+            <li class="fl"><a class="dec_non" href="#">Contact</a><span class="phone_hide tablet_hide"> | </span>
+            </li>
+            <li class="fl"><a class="dec_non" href="#">Privaty Policy</a></li>
         </ul>
+        <p class="fr">Template from <a class="dec_non"
+                                       href="http://www.free-psd.co/free-psd-website-templates/303-comcap"
+                                       target="_blank">Free
+            PSD</a>
+        </p>
     </div>
-
-    <div id="content">
-        <img class="phone_hide fl" src="images/photos/1photo.jpg">
-        <img class="tablet_hide phone_hide fl" src="images/photos/2photo.jpg">
-
-        <div class="form">
-            <h2>FIND A PROPERTY</h2>
-            <img class="phone_hide fr" src="images/icons/loupe.png">
-
-            <form action="" method="GET">
-                <dl>
-                    <dt class="fl"><label class="first">BEDROOMS</label></dt>
-                    <dd><input type="radio" id="any">
-                        <label for="any">Any</label>
-                        <input type="radio" id="one">
-                        <label for="one">1</label>
-                        <input type="radio" id="two">
-                        <label for="two">2</label>
-                        <input type="radio" id="three">
-                        <label for="three">3</label>
-                    </dd>
-                    <dt class="fl"><label class="first">TYPE</label></dt>
-                    <dd><input type="radio" id="any_type">
-                        <label for="any_type">Any</label>
-                        <input type="radio" id="apt">
-                        <label for="apt">Apt.</label>
-                        <input type="radio" id="townhome">
-                        <label for="townhome">Townhome</label>
-                    </dd>
-                    <dt class="fl"><label class="first">COMMUNITY</label></dt>
-                    <dd><select class="select" name="community">
-                        <option value="no_reference">No reference</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                    </select>
-                    </dd>
-                    <dt class="fl"><label class="first">RENT</label></dt>
-                    <dd><select class="select rent" name="rent">
-                        <option value="no_reference">No reference</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                    </select>
-                    </dd>
-                    <dt class="fl"><label class="first">SQ.FOOTAGE</label></dt>
-                    <dd><select class="select" name="footage">
-                        <option value="no_reference">No reference</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                    </select>
-                    </dd>
-
-                    <dt class="fl"><label class="first">AVAILABILITY</label></dt>
-                    <dd><select class="select" name="availability">
-                        <option value="no_reference">No reference</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                    </select>
-                    </dd>
-                    <dt class="fl"><label class="first">PETS POLICY</label></dt>
-                    <dd><select class="select" name="pets">
-                        <option value="no_reference">No reference</option>
-                        <option value="one">One</option>
-                        <option value="two">Two</option>
-                    </select>
-                    </dd>
-                    <dt class="fl"><label class="first">GARAGE</label></dt>
-                    <dd><input type="radio" id="any_garage">
-                        <label for="any_garage">Any</label>
-                        <input type="radio" id="attached">
-                        <label for="attached">Attached</label>
-                        <input type="radio" id="detached">
-                        <label for="detached">Detached</label><br>
-                    </dd>
-                </dl>
-                <input class="search_button" id="submit" type="submit" value="SEARCH NOW">
-            </form>
-        </div>
-        <img class="semi phone_hide" src="images/semicircle.png">
-    </div>
-    <div id="bottom_content">
-        <div class="properties">
-            <h3 class="fl">FEATURED PROPERTIES</h3>
-
-            <div>
-                <a class="dec_non phone_hide" href="#" target="_blank">
-                    <img class="fl" src="images/photos/camera.jpg" alt="take a photo tour">
-
-                    <p>TAKE A <span>PHOTO TOUR</span></p>
-                </a>
-                <a class="dec_non display_phone take_photo" href="#" target="_blank">
-                    <img src="images/photos/camera.jpg" alt="take a photo tour">
-                </a>
-            </div>
-            <div>
-                <a class="dec_non phone_hide" href="#" target="_blank">
-                    <img class="fl" src="images/photos/dolar.jpg" alt="special offers">
-
-                    <p>VIEW <span>SPECIAL OFFERS</span></p>
-                </a>
-                <a class="dec_non display_phone take_photo" href="#" target="_blank">
-                    <img src="images/photos/dolar.jpg" alt="special offers">
-                </a>
-            </div>
-            <div>
-                <a class="dec_non phone_hide" href="#" target="_blank">
-                    <img class="fl" src="images/photos/mobile.jpg" alt="read the blog">
-
-                    <p>READ THE <span>COMCAMP BLOG</span></p>
-                </a>
-                <a class="dec_non display_phone take_photo" href="#" target="_blank">
-                    <img src="images/photos/mobile.jpg" alt="read the blog">
-                </a>
-
-            </div>
-            <div id="apartments">
-                <div class="apartment">
-                    <div class="box">
-                        <img src="images/photos/3photo.jpg" alt="apartment">
-                        <img class="price" src="images/triangle.png" alt="triangle">
-                        <p>$950</p>
-                        <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
-                    </div>
-
-                </div>
-                <div class="apartment">
-                    <div class="box">
-                        <img src="images/photos/3photo.jpg" alt="apartment">
-                        <img class="price" src="images/triangle.png" alt="triangle">
-
-                        <p>$950</p>
-                        <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
-                    </div>
-
-                </div>
-                <div class="apartment">
-                    <div class="box">
-                        <img src="images/photos/3photo.jpg" alt="apartment">
-                        <img class="price" src="images/triangle.png" alt="triangle">
-
-                        <p>$950</p>
-                        <span>ORCHARD HILL APARTMENTS<br>Thornton, Colorado</span>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-
-        <div id="footer">
-            <img class="fl" src="images/icons/house.png">
-            <ul>
-                <li class="fl"><a class="dec_non" href="#">Home</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">About us</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">Amenities</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">Photo Gallery</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">Blog</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">Contact</a><span class="phone_hide tablet_hide"> | </span></li>
-                <li class="fl"><a class="dec_non" href="#">Privaty Policy</a></li>
-            </ul>
-            <p class="fr">Template from <a class="dec_non" href="http://www.free-psd.co/free-psd-website-templates/303-comcap" target="_blank">Free
-                PSD</a>
-            </p>
-        </div>
-    </div>
+</div>
 
 </div>
 
