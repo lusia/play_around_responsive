@@ -131,24 +131,28 @@
     width: 100%;
     height: auto;
   }
-  /* line 112, ../sass/phone.scss */
+  /* line 108, ../sass/phone.scss */
+  body div#middle #bottom_content .properties #apartments .apartment .box .price {
+    bottom: 2px;
+  }
+  /* line 115, ../sass/phone.scss */
   body div#middle #bottom_content #footer {
     position: relative;
     margin-top: 1450px;
     height: 240px;
   }
-  /* line 116, ../sass/phone.scss */
+  /* line 119, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul {
     text-align: center;
     position: absolute;
     left: 40%;
   }
-  /* line 120, ../sass/phone.scss */
+  /* line 123, ../sass/phone.scss */
   body div#middle #bottom_content #footer ul li {
     float: none;
     margin-bottom: 14px;
   }
-  /* line 125, ../sass/phone.scss */
+  /* line 128, ../sass/phone.scss */
   body div#middle #bottom_content #footer p {
     position: absolute;
     bottom: 0;
